@@ -14,7 +14,7 @@ import ContactPage from "./pages/ContactPage";
 import "./App.css";
 
 function App() {
-  const [setLoadingFinished] = useState(false);
+  const [loadingFinished, setLoadingFinished] = useState(false);
   const location = useLocation();
   
   // Don't show navbar on loading page

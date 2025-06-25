@@ -32,7 +32,7 @@ const HomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Full-Stack Developer & AI Enthusiast
+          Master’s Student in Artificial Intelligent (M2), Full-Stack Developer & AI Enthusiast
         </motion.h2>
         
         <motion.p
@@ -41,7 +41,7 @@ const HomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8 }}
         >
-          Passionate about creating intelligent solutions that blend AI, web development, and computer vision to solve real-world problems.
+          Passionate about leveraging machine learning, computer vision, and web technologies to craft practical, scalable solutions with real-world impact.
         </motion.p>
         
         <motion.div
