@@ -30,6 +30,37 @@ function ProjectsPage() {
       github: "#",
       live: "#",
     },
+    {
+      id: 4,
+      title: "Smart Frigo",
+      description:
+        "A smart refrigerator prototype that extends food freshness by monitoring its environment. It integrates humidity, air quality, and temperature sensors for real-time data collection. Implemented with Arduino and modular Java/C++ code for easy customization and scalability.",
+      technologies: ["Arduino", "C++", "Sensors", "Embedded Systems", "IoT"],
+      image: "/api/placeholder/400/250",
+      github: "https://github.com/duybeobn1/Frigo",
+      live: "#",
+    },
+    {
+      id: 5,
+      title: "Hybrid Adventure",
+      description:
+        "A genetics simulation program that uses Mendelian inheritance to plan flower or animal breeding. Choose a target color outcome and trace back the breeding process from an initial color set. Built in Java with a focus on clear genetic visualization.",
+      technologies: ["Java", "Simulation", "Genetics", "Algorithm Design"],
+      image: "/api/placeholder/400/250",
+      github: "https://github.com/duybeobn1/BreedingFlower",
+      live: "#",
+    },
+    {
+      id: 6,
+      title: "Film Searching Tool",
+      description:
+        "A minimalist web application to browse and search for movies using the TMDB API. Users can explore Top Rated, Upcoming, and Popular films, search by title, and view posters with essential info. Built for speed and clarity using modern front-end tools.",
+      technologies: ["React.js", "Axios", "TMDB API", "Movie Search", "Front-end"],
+      image: "/api/placeholder/400/250",
+      github: "https://github.com/duybeobn1/blog-app",
+      live: "https://film-searching-tool.vercel.app/",
+    },
+    
   ];
 
   return (
