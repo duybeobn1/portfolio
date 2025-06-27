@@ -32,7 +32,7 @@ function ProjectsPage() {
     },
     {
       id: 4,
-      title: "Smart Frigo",
+      title: "Smart Fridge (March 2021)",
       description:
         "A smart refrigerator prototype that extends food freshness by monitoring its environment. It integrates humidity, air quality, and temperature sensors for real-time data collection. Implemented with Arduino and modular Java/C++ code for easy customization and scalability.",
       technologies: ["Arduino", "C++", "Sensors", "Embedded Systems", "IoT"],
@@ -42,7 +42,7 @@ function ProjectsPage() {
     },
     {
       id: 5,
-      title: "Hybrid Adventure",
+      title: "Hybrid Adventure (June 2021) ",
       description:
         "A genetics simulation program that uses Mendelian inheritance to plan flower or animal breeding. Choose a target color outcome and trace back the breeding process from an initial color set. Built in Java with a focus on clear genetic visualization.",
       technologies: ["Java", "Simulation", "Genetics", "Algorithm Design"],
@@ -52,15 +52,90 @@ function ProjectsPage() {
     },
     {
       id: 6,
-      title: "Film Searching Tool",
+      title: "Film Searching Tool (September 2021)",
       description:
         "A minimalist web application to browse and search for movies using the TMDB API. Users can explore Top Rated, Upcoming, and Popular films, search by title, and view posters with essential info. Built for speed and clarity using modern front-end tools.",
-      technologies: ["React.js", "Axios", "TMDB API", "Movie Search", "Front-end"],
+      technologies: [
+        "React.js",
+        "Axios",
+        "TMDB API",
+        "Movie Search",
+        "Front-end",
+      ],
       image: "/api/placeholder/400/250",
-      github: "https://github.com/duybeobn1/blog-app",
+      github: "https://github.com/duybeobn1/film-searching",
       live: "https://film-searching-tool.vercel.app/",
     },
-    
+    {
+      id: 7,
+      title: "Mini Blog App (January 2022 - Deprecated)",
+      description:
+        "An early blogging app built using React 16 and Draft.js, demonstrating my foundational understanding of SPA routing, editor state management, and custom render pipelines. Users could write, format, and view blog entries dynamically within a single-page interface.",
+      technologies: [
+        "React.js",
+        "Draft.js",
+        "Blog Editor",
+        "Routing",
+        "State Management",
+      ],
+      github: "https://github.com/duybeobn1/blog-app",
+      live: "#",
+    },
+    {
+      id: 8,
+      title: "Chicken Invaders Clone (March 2022)",
+      description:
+        "A classic 2D space shooter game inspired by Chicken Invaders. Built from scratch in Java using the Java Swing library, the game features waves of enemies, projectile mechanics, collision detection, and score tracking. Designed for educational purposes and to reinforce object-oriented programming concepts.",
+      technologies: [
+        "C/C++",
+        "SDL/SDL2"
+      ],
+      github: "https://github.com/duybeobn1/Chicken-Invaders",
+      live: "#",
+    },
+    {
+      id: 9,
+      title: "Chat App (August 2022 - Deprecated)",
+      description:
+        "A basic real-time chat application built with React, Node.js, Socket.IO, and Express to explore WebSocket communication. It supported multiple rooms and real-time message exchange. This project was an early experiment to understand client-server architecture and bidirectional communication.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Socket.IO",
+        "Express",
+        "Real-time Chat",
+      ],
+      github: "https://github.com/duybeobn1/chat-app",
+      live: "#",
+    },
+    {
+      id: 10,
+      title: "Gymnate (March 2023)",
+      description:
+        "A responsive and modern fitness web app that helps users discover workout programs and gyms. Designed with a focus on clean UI/UX and mobile accessibility, it offers category-based filtering, animated transitions, and an engaging landing page to promote healthy lifestyles.",
+      technologies: [
+        "React.js",
+        "Tailwind CSS",
+        "RapidAPI",
+        "Framer Motion",
+      ],
+      github: "https://github.com/duybeobn1/gymnate",
+      live: "https://gymnate.vercel.app/",
+    },
+    {
+      id: 11,
+      title: "CryptoX - Crypto Tracker (May 2023)",
+      description:
+        "A modern and responsive web application that tracks real-time cryptocurrency prices and market statistics. Users can view detailed charts, search for specific coins, and access key metrics such as price, market cap, and 24h changes. Designed to be fast, mobile-friendly, and visually appealing.",
+      technologies: [
+        "React.js",
+        "CoinGecko API",
+        "Chart.js",
+        "Tailwind CSS",
+      ],
+      github: "https://github.com/duybeobn1/cryptoX",
+      live: "https://crypto-x-five.vercel.app/",
+    },
   ];
 
   return (
